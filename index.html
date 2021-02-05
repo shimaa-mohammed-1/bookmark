@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+       </head>
+       <title>Bookmark</title>
+
+
+   <body>
+    <!------------------------ header section ----------------------->
+    <header>
+        <div class="container title py-5 w-80 font-weight-bold">
+            <h3>Bookmarker</h3>
+        </div>
+        
+    </header>
+    
+    <!------------------------ input section ----------------------->
+    <section class="bookmark-input text-center">
+    <div class="container bookmark mt-4  py-4 w-55">
+       <h2>Bookmark Your Favorite sites</h2>
+
+        <div class="form-group px-3 mx-5">
+
+          <label for="" class="font-weight-bold  py-2">site Name</label>
+          <input type="text" class="form-control" name="" id="sName" aria-describedby="helpId" placeholder="site name">
+
+          <label for="" class="font-weight-bold py-2">Site URL</label>
+          <input type="url" class="form-control" name="" id="sUrl" aria-describedby="helpId" placeholder="website URL">
+
+          <button type="submit" class="btn btn-primary mt-4 " onclick="addWebsite();">SUBMIT</button>  
+
+        </div>
+    </div>
+    </section>  
+    <!------------------------ table section ----------------------->
+    <section class="bookmark-table">
+    <div class="container  mt-5">
+    <table class="table ">
+
+        <tbody id="table-display">
+        </tbody>
+    </table>
+
+    </div>
+    </section>  
+
+    <!------------------------ footer section ----------------------->
+    <footer>
+        <div class="container">
+            <p class="font-weight-bold text-muted p-2">© 2019 Bookmarker Inc.</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script  src="js/index.js"></script>
+
+   </body>
+</html>

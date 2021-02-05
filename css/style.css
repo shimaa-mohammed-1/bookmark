@@ -1,0 +1,54 @@
+/********** styling header section *********/
+header h3{
+    color:#AAA;
+}
+.title
+{
+    border-bottom:1px solid #999;
+    
+}
+
+
+/********** styling input section *********/
+.bookmark
+{
+    background-color:#EEEEEE ;
+}
+
+.bookmark-input .btn
+{
+    border: none;
+}
+.bookmark-input .btn:hover
+{
+    background-color: #0A3F77;
+    box-shadow: 2px 5px gray;
+    
+}
+
+
+/********** styling table section *********/
+
+.bookmark-table .btn:hover
+{
+    box-shadow: 2px 5px gray;
+}
+
+tbody tr
+{
+    background-image:linear-gradient(#EEE,#FFF) ;
+   
+}
+.table td
+{
+    border: none;
+}
+
+/********** styling footer section *********/
+
+footer p
+{
+    border-top:1px solid #999;
+    margin-top: 20px;
+
+}
